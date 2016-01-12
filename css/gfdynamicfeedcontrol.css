@@ -1,0 +1,171 @@
+.gfg-root {
+  width : 100%;
+  height : auto;
+  position : relative;
+  overflow : hidden;
+  text-align : left;
+  font-family: inherit;
+  font-size: inherit;
+    ;
+}
+
+.gfg-title {
+    
+    text-transform: capitalize;
+    color : #20252f;
+    font-size: 1.8em;
+    letter-spacing: 0.025em;
+    background-color: inherit;
+    overflow : hidden;
+    white-space : nowrap;
+    text-shadow: 1px 0px 8px #221d00;
+     line-height: 2em;
+    box-shadow: 0px 0px 20px black;
+}
+
+
+.gfg-subtitle {
+  font-size: inherit;
+  font-weight : bold;
+  color : #3366cc;
+
+  line-height : 1.4em;
+  overflow : hidden;
+  white-space : nowrap;
+    font-size: 1.3em;
+    text-shadow: 0px 0px 4px rgba(175, 175, 175, 0.67);
+        text-align: right;
+    padding: 1em;
+   background : rgba(175, 175, 175, 0.57);
+    box-shadow: 0px -.5em 20px #837f8b;
+}
+
+.gfg-subtitle a {
+  color : #3366cc;
+    
+}
+
+.gfg-entry {
+ 
+  width : 100%;
+  height : 10em;
+  position : relative;
+  overflow : hidden;
+  margin-bottom: 2px;
+  
+  
+}
+
+/* To allow correct behavior for overlay */
+.gfg-root .gfg-entry .gf-result {
+  position : relative;
+ 
+  width : auto;
+  height : auto;
+  padding-left : 10px;
+  padding-right : 10px;
+    margin: 8px;
+    
+  border: 1px solid #000; 
+    
+     background : rgba(255, 255, 169, 0.57);
+}
+ 
+
+.gfg-list {
+  position : relative;
+  background: rgba(255, 255, 255, 0.53);
+    margin-right: 20px;
+    margin-left:  20px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+    
+}
+
+.gfg-listentry {
+    line-height : 1.5em;
+    overflow : hidden;
+    white-space : nowrap;
+    text-overflow : ellipsis;
+    -o-text-overflow : ellipsis;
+    padding: 5px;
+}
+
+.gfg-listentry-odd {
+  
+}
+
+.gfg-listentry-even {
+text-align: right;
+}
+
+
+.gfg-listentry-highlight { 
+
+    text-align: center;
+    text-shadow: .5px .5px 3px black;
+    letter-spacing: .1em;
+    font-size: 1.2em;
+    color: #48599f;
+    background: rgb(255, 250, 124);
+    height: auto;
+    border: 1px dotted black;
+    margin-left: .71em;
+    margin-right: .71em;
+    box-shadow: 0px .1em 10px black;
+    border-radius: 2em;
+    width: auto;
+}
+
+/*
+ * FeedControl customizations.
+ */
+
+.gfg-root .gfg-entry .gf-result .gf-title {
+  font-size: 1.2em;
+  font-weight: 400;
+    height: auto;
+    
+  line-height :normal;
+  overflow : hidden;
+  white-space : nowrap;
+  text-overflow : ellipsis;
+  -o-text-overflow : ellipsis;
+  margin-bottom : 2px;
+    text-align: center;
+}
+
+.gfg-root .gfg-entry .gf-result .gf-snippet {
+  height : auto;
+  color: inherit;
+  
+    
+}
+.gf-snippet {
+    text-align: justify;
+}
+
+.gf-author {
+    
+    font-style: italic;
+    
+    
+}
+.gf-title{
+color: black;
+    font-weight: bold;
+    text-shadow: 0px 1px 2px black;
+}
+
+
+.gfg-collapse-open, .gfg-collapse-closed {
+  background-repeat : no-repeat;
+  background-position : center;
+  cursor : pointer;
+  float : right;
+  width : 17px;
+  height : 20px;
+}
+
+
+
